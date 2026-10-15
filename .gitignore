@@ -1,0 +1,24 @@
+node_modules/
+.next/
+out/
+build/
+*.tsbuildinfo
+backend/.venv/
+backend/__pycache__/
+backend/app/__pycache__/
+backend/tests/__pycache__/
+__pycache__/
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+
+# Test and coverage outputs
+.coverage
+htmlcov/
